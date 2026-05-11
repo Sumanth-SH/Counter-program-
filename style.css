@@ -1,0 +1,28 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 85px;
+}
+
+#clscontainer{
+    text-align: center;
+}
+
+.buttons{
+    background-color: rgb(29, 216, 210);
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 7px 7px 7px 7px;
+    cursor: pointer;
+    transition: backgound-color 0.25s;
+}
+.buttons:hover{
+    background-color: rgb(125, 248, 244);
+    font-weight: bold;
+    color: rgb(0, 0, 0);  
+}
